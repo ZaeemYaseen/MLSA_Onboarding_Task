@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/workspace.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Oasis Learning (Final Year Project)",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a web-based application with a responsive design using (LLM, HTML5, CSS3, JavaScript, Django, Python, SQLite, VSCode) allowing users to input (query, image, language, accent) &the application generates a personalized video where the query is addressed in the desired language, tone & person/teacher.",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Hostel Hub",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
+      "Created a responsive web-based application using (HTML5, CSS3, JavaScript, Node, Express, Sequelize, MySQL 2, VSCode) with the essential features of HH that consists of admin and student modules.",
+      url: "https://github.com/ZaeemYaseen/Hostel_Hub",
+    },
   {
-    title: "My Resume Site",
+    title: "Searching Algorithm Visualizer",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
+      "Created a GUI-based application using (PyQt5, Python, PyCharm) that allows users to visualize various pathfinding algorithms.",
+      url: "https://github.com/ZaeemYaseen/Tree_Visualizer_AI", 
+    },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Hostel Management System",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+      "Created a GUI based Desktop Application using (SQL, C#, Visual Studio, Windows Form) consisting of Admin & Student modules with core functionalities of HMS.",
+      url: "https://github.com/ZaeemYaseen/Hostel-Management-System-HMS-",
+    },
 ];
 
 const Portfolio = () => {
